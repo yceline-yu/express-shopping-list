@@ -2,13 +2,17 @@
   "name": "express-shopping-list",
   "version": "1.0.0",
   "description": "",
-  "main": "fakeDb.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^5.0.0-alpha.8"
+  },
+  "devDependencies": {
+    "supertest": "^6.1.3"
   }
 }
